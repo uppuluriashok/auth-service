@@ -1,0 +1,4 @@
+server.port=8081
+
+jwt.secret=738de307750ce210e425f2e99adbde6d17fad984a821a12fc228f763583295d1
+jwt.expiration=86400000
