@@ -1,5 +1,4 @@
 # 🚨 REQUIRED FOR RAILWAY (THIS FIXES 502)
-server.port=${PORT:8080}
 
 # ===============================
 # Database (Railway MySQL)
