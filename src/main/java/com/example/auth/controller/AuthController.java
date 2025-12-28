@@ -32,7 +32,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "http://localhost:4000", allowCredentials = "true")
+@CrossOrigin(origins = "http://localhost:8100", allowCredentials = "true")
 public class AuthController {
     @Autowired
    private AuthService authService;
