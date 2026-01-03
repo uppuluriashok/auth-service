@@ -32,7 +32,17 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "https://auth-service-production-028f.up.railway.app", allowCredentials = "true")
+
+@CrossOrigin(
+        origins = {
+                "http://localhost",
+                "http://localhost:8100",
+                "https://localhost",
+                "capacitor://localhost"
+        },
+        allowCredentials = "true"
+)
+
 public class AuthController {
     @Autowired
    private AuthService authService;
